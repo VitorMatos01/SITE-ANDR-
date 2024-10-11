@@ -1,0 +1,48 @@
+/* Centralizar o conteúdo dentro da div */
+.center {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente, se houver altura definida */
+    height: 100vh;           /* Define a altura da div para 100% da altura da tela */
+    margin-top: -110px;
+    
+
+}
+
+img {
+    max-width: 100%;   /* Garante que a imagem não exceda a largura da tela */
+    height: auto;      /* Mantém a proporção da imagem */
+    width: 450px;
+    height: 250px;
+    margin-top: -450px;    /* aproxima da margem, enquanto padding afasta */
+}
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    list-style-type: none;
+    padding: 50px; /*afasta da margem*/
+    
+}
+ul{
+    list-style-type: none;     /*usado para remover o caractere ao lado da fonte*/ 
+    padding: 80px; /*afasta o intem da margem*/
+
+}
+text{
+    padding: 50px
+
+}
+li{
+    margin-top: -120px;
+    font-size: 50px; 
+}
+h2{
+    margin-top: -350px;
+    text-align: left;
+}
+
+p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
